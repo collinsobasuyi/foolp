@@ -1,0 +1,174 @@
+{
+  "ServiceUsers": [
+    {
+      "ServiceUserId": 201,
+      "Status": "Active",
+      "LastLoggedInFromToday": 1,
+      "SingleSignOnId": null,
+      "Claims": {
+        "FirstName": "All",
+        "LastName": "Safeguarding Statuses",
+        "DateOfBirth": "2000-12-11",
+        "Postcode": "LS12 3LS",
+        "MobileNumberCountryCode": "+44",
+        "MobileNumber": "712345678",
+        "EmailAddress": "AllSafeguardingStatuses@Test.com"
+      }
+    },
+    {
+      "ServiceUserId": 202,
+      "Status": "Active",
+      "LastLoggedInFromToday": 10,
+      "SingleSignOnId": null,
+      "Claims": {
+        "FirstName": "Sex",
+        "LastName": "Worker1",
+        "DateOfBirth": "2000-12-11",
+        "Postcode": "LS12 4LS",
+        "MobileNumberCountryCode": "+44",
+        "MobileNumber": "712345678",
+        "EmailAddress": "SexWorker1@Test.com",
+        "PrimaryAddress": [
+          "Address1",
+          "Address2",
+          "Address3"
+        ]
+      }
+    }
+  ],
+  "Cases": [
+    {
+      "CaseId": 201,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 201
+      },
+      "Processes": [
+        {
+          "ProcessTypeLocalisationKey": "Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "Safeguarding-Consolation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\",\"SexWorker\",\"PartnerAgeOrPower\",\"PartnerAge\",\"PartnerPower\",\"CoercedSex\",\"Uncomfortable\",\"GiftsMoneySex\",\"Sexting\",\"AgenciesOrServices\",\"SelfHarm\",\"DrugAlcoholUser\",\"AlcoholUser\",\"DrugUser\" ,\"FemaleGenitalMutilation\",\"DomesticAbuseViolence\",\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+            {
+              "Key": "SexualAssault"
+            },
+            {
+              "Key": "SexWorker"
+            },
+            {
+              "Key": "PartnerAgeOrPower"
+            },
+            {
+              "Key": "PartnerAge"
+            },
+            {
+              "Key": "PartnerPower"
+            },
+            {
+              "Key": "CoercedSex"
+            },
+            {
+              "Key": "Uncomfortable"
+            },
+            {
+              "Key": "GiftsMoneySex"
+            },
+            {
+              "Key": "Sexting"
+            },
+            {
+              "Key": "AgenciesOrServices"
+            },
+            {
+              "Key": "SelfHarm"
+            },
+            {
+              "Key": "DrugAlcoholUser"
+            },
+            {
+              "Key": "AlcoholUser"
+            },
+            {
+              "Key": "DrugUser"
+            },
+            {
+              "Key": "FemaleGenitalMutilation"
+            },
+            {
+              "Key": "DomesticAbuseViolence"
+            },
+            {
+              "Key": "SexualAssault"
+            }
+          ]
+        },
+        {
+          "ProcessTypeLocalisationKey": "PartnerTracing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "Care"
+        }
+      ]
+    },
+    {
+      "CaseId": 202,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 202
+      },
+      "Processes": [
+        {
+          "ProcessTypeLocalisationKey": "Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "Safeguarding-Consolation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            {
+              "Key": "SexualAssault"
+            }
+          ]
+        },
+        {
+          "ProcessTypeLocalisationKey": "PartnerTracing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "Care"
+        }
+      ]
+    }
+  ]
+}
