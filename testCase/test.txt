@@ -1,16 +1,21 @@
 5 - active users last 30 days
 5 - active users last 60 days
 5 - active users last 90 days
+2 users for single Key
+2 users for double Key
+2 users for the three keys
 
 {0 means due - 1 -2 -3 means overdue}
 
                 "DueDateFromToday": 5,
                 "CreatedDateFromToday": -30,
                 "ClosedFromToday": null means open    "ClosedFromToday": -1 means closed 
-5 - active users last 30 days overdue
-5 - active users last 30 days due
-5 - active users last 30 days closed
-
+3 - active users last 30 days overdue TESTING
+3 - active users last 30 days due TESTING
+3 - active users last 30 days closed TESTING
+3 - active users last 30 days overdue SAFEGUARDING
+3 - active users last 30 days due SAFEGUARDING
+3 - active users last 30 days closed SAFEGUARDING
 
             "ProcessMetaDatas": [
               {
@@ -30,7 +35,7 @@
             },
             {
               "Key": "ProcessSummaryData",
-              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HasMycoplasmaGentialium\"]}"
+              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"MG\"]}"
             },
 
                         {
@@ -43,3 +48,19 @@
               "Key": "ProcessSummaryData",
               "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HBV\",\"GA\"]}"
             },
+
+
+
+
+
+
+
+            801_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_AU_DU.json
+
+            802_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_SA_SW.json
+
+            803_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_SH_PP.json
+
+            804_open_active_user_30days_testUpcoming_testCaseOpen_test_MG_safeGuardCaseOpen_safeGuardUpComing_SH_PP_FGM.json
+
+            805
