@@ -1,0 +1,45 @@
+5 - active users last 30 days
+5 - active users last 60 days
+5 - active users last 90 days
+
+{0 means due - 1 -2 -3 means overdue}
+
+                "DueDateFromToday": 5,
+                "CreatedDateFromToday": -30,
+                "ClosedFromToday": null means open    "ClosedFromToday": -1 means closed 
+5 - active users last 30 days overdue
+5 - active users last 30 days due
+5 - active users last 30 days closed
+
+
+            "ProcessMetaDatas": [
+              {
+                "Key": "HasHepatitisB"
+              },
+
+
+                          {
+              "Key": "HasHepatitisB"
+            },
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HBV\"]}"
+            },
+
+                          "Key": "HasMycoplasmaGentialium"
+            },
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HasMycoplasmaGentialium\"]}"
+            },
+
+                        {
+              "Key": "HasGonorrhoea"
+            },
+            {
+              "Key": "HasHepatitisB"
+            },
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HBV\",\"GA\"]}"
+            },
