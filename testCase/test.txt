@@ -63,4 +63,16 @@
 
             804_open_active_user_30days_testUpcoming_testCaseOpen_test_MG_safeGuardCaseOpen_safeGuardUpComing_SH_PP_FGM.json
 
-            805
+            805_open_active_user_30days_testUpcoming_testCaseOpen_test_MG_GA_HBV_safeGuardCaseOpen_safeGuardUpComing_PA_CS.json
+
+            806_open_active_user_60days_testUpcoming_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_U_CS.json
+
+            807_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_MG_safeGuardCaseOpen_safeGuardUpComing_GMS_S_SA.json
+
+            808_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_DAV_DAU.json
+
+            809_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_HBV_safeGuardCaseOpen_safeGuardUpComing_DAV_DU.json
+
+            810_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_GMS_PAP_SW.json
+
+            811
