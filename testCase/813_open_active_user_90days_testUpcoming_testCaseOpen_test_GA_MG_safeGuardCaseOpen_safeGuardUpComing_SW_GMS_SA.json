@@ -1,27 +1,27 @@
 {
     "ServiceUsers": [
       {
-        "ServiceUserId": 810,
+        "ServiceUserId": 813,
         "Status": "Active",
-        "LastLoggedInFromToday": -1,
+        "LastLoggedInFromToday": -4,
         "SingleSignOnId": null,
         "Claims": {
-          "FirstName": "Anayah",
-          "LastName": "Little",
-          "DateOfBirth": "1985-03-01",
-          "Postcode": "CR44 1AN",
+          "FirstName": "Efan",
+          "LastName": "Betts",
+          "DateOfBirth": "2001-04-02",
+          "Postcode": "SO41 3RW",
           "MobileNumberCountryCode": "+44",
-          "MobileNumber": "883140428",
-          "EmailAddress": "anayahlittle@Test.com"
+          "MobileNumber": "590543317",
+          "EmailAddress": "efanbetts@Test.com"
         }
       }
     ],
     "Cases": [
       {
-        "CaseId": 810,
+        "CaseId": 813,
         "ServiceProviderExtId": 226,
         "CaseUser": {
-          "ServiceUserExtId": 810
+          "ServiceUserExtId": 813
         },
         "Processes": [
           {
@@ -30,7 +30,7 @@
               {
                 "TaskTypeLocalisationKey": "Testing-ResultsConsultation",
                 "DueDateFromToday": 2,
-                "CreatedDateFromToday": -60,
+                "CreatedDateFromToday": -90,
                 "ClosedFromToday": null
               }
             ],
@@ -39,15 +39,12 @@
                 "Key": "HasGonorrhoea"
               },
               {
-                "Key": "HasHepatitisB"
-              },
-              {
                 "Key": "HasMycoplasmaGentialium"
               },
 
               {
                 "Key": "ProcessSummaryData",
-                "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"GA\",\"HBV\",\"MG\"]}"
+                "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"GA\",\"MG\"]}"
               },
               {
                 "Key": "ProcessSummaryType",
@@ -75,15 +72,14 @@
               "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
             },
             {
+              "Key": "SexWorker"
+            },
+            {
               "Key": "GiftsMoneySex"
             },
             {
-              "Key": "PartnerAgeOrPower"
-            },
-            {
-              "Key": "SexWorker"
+              "Key": "SexualAssault"
             }
-            
           ]
         },
         {
@@ -95,10 +91,10 @@
       ]
     },
     {
-      "CaseId": 810,
+      "CaseId": 813,
       "ServiceProviderExtId": 226,
       "CaseUser": {
-        "ServiceUserExtId": 810
+        "ServiceUserExtId": 813
       },
       "Processes": [
         {
@@ -125,13 +121,13 @@
             },
 
             {
+              "Key": "SexWorker"
+            },
+            {
               "Key": "GiftsMoneySex"
             },
             {
-              "Key": "PartnerAgeOrPower"
-            },
-            {
-              "Key": "SexWorker"
+              "Key": "SexualAssault"
             }
           ]
         },

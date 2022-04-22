@@ -1,27 +1,27 @@
 {
     "ServiceUsers": [
       {
-        "ServiceUserId": 805,
+        "ServiceUserId": 815,
         "Status": "Active",
-        "LastLoggedInFromToday": -1,
+        "LastLoggedInFromToday": -2,
         "SingleSignOnId": null,
         "Claims": {
-          "FirstName": "Sonia",
-          "LastName": "Phan",
-          "DateOfBirth": "1977-08-23",
-          "Postcode": "GL6 0YQ",
+          "FirstName": "Rikki",
+          "LastName": "Wilder",
+          "DateOfBirth": "2001-09-16",
+          "Postcode": "EN4 8AD",
           "MobileNumberCountryCode": "+44",
-          "MobileNumber": "453544023",
-          "EmailAddress": "soniaphan@Test.com"
+          "MobileNumber": "923086400",
+          "EmailAddress": "rikkiwilder@Test.com"
         }
       }
     ],
     "Cases": [
       {
-        "CaseId": 805,
+        "CaseId": 815,
         "ServiceProviderExtId": 226,
         "CaseUser": {
-          "ServiceUserExtId": 805
+          "ServiceUserExtId": 815
         },
         "Processes": [
           {
@@ -29,25 +29,19 @@
             "Tasks": [
               {
                 "TaskTypeLocalisationKey": "Testing-ResultsConsultation",
-                "DueDateFromToday": 3,
-                "CreatedDateFromToday": -30,
+                "DueDateFromToday": 7,
+                "CreatedDateFromToday": -90,
                 "ClosedFromToday": null
               }
             ],
             "ProcessMetaDatas": [
               {
-                "Key": "HasMycoplasmaGentialium"
-              },
-              {
                 "Key": "HasGonorrhoea"
-              },
-              {
-                "Key": "HasHepatitisB"
               },
 
               {
                 "Key": "ProcessSummaryData",
-                "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"MG\",\"GA\",\"HBV\"]}"
+                "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"GA\"]}"
               },
               {
                 "Key": "ProcessSummaryType",
@@ -75,12 +69,11 @@
               "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
             },
             {
-              "Key": "PartnerAge"
+              "Key": "FemaleGenitalMutilation"
             },
             {
-              "Key": "CoercedSex"
+              "Key": "Sexting"
             }
-            
           ]
         },
         {
@@ -92,10 +85,10 @@
       ]
     },
     {
-      "CaseId": 202,
+      "CaseId": 815,
       "ServiceProviderExtId": 226,
       "CaseUser": {
-        "ServiceUserExtId": 202
+        "ServiceUserExtId": 815
       },
       "Processes": [
         {
@@ -122,10 +115,10 @@
             },
 
             {
-              "Key": "PartnerAge"
+              "Key": "FemaleGenitalMutilation"
             },
             {
-              "Key": "CoercedSex"
+              "Key": "Sexting"
             }
           ]
         },
