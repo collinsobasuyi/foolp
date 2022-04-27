@@ -1,0 +1,71 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 814,
+        "Status": "Active",
+        "LastLoggedInFromToday": -6,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "Ayla",
+          "LastName": "Talbot",
+          "DateOfBirth": "1981-10-08",
+          "Postcode": "TQ11 0JH",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "364402254",
+          "EmailAddress": "aylatalbot@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+     
+    {
+      "CaseId": 814,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 814
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            {
+              "Key": "Uncomfortable"
+            },
+            {
+              "Key": "Sexting"
+            },
+            {
+              "Key": "DrugUser"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }

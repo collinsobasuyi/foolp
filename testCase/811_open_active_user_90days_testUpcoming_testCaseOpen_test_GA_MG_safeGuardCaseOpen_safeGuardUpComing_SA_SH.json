@@ -1,0 +1,68 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 811,
+        "Status": "Active",
+        "LastLoggedInFromToday": -2,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "Mac",
+          "LastName": "Knowles",
+          "DateOfBirth": "1976-02-02",
+          "Postcode": "NP18 3XQ",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "633855086",
+          "EmailAddress": "macknowles@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+      
+    {
+      "CaseId": 811,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 811
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            {
+              "Key": "SexualAssault"
+            },
+            {
+              "Key": "SelfHarm"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }

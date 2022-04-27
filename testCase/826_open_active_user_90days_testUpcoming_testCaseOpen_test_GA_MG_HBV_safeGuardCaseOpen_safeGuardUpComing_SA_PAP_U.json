@@ -1,0 +1,71 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 826,
+        "Status": "Active",
+        "LastLoggedInFromToday": -3,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "Kay",
+          "LastName": "Vaughn",
+          "DateOfBirth": "1970-10-28",
+          "Postcode": "SS4 1DH",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "702806238",
+          "EmailAddress": "KayVaughn@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+    {
+      "CaseId": 826,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 826
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            
+            {
+              "Key": "SexualAssault"
+            },
+            {
+              "Key": "PartnerAgeOrPower"
+            },
+            {
+              "Key": "Uncomfortable"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }

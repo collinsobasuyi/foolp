@@ -1,0 +1,68 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 815,
+        "Status": "Active",
+        "LastLoggedInFromToday": -2,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "Rikki",
+          "LastName": "Wilder",
+          "DateOfBirth": "2001-09-16",
+          "Postcode": "EN4 8AD",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "923086400",
+          "EmailAddress": "rikkiwilder@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+      
+    {
+      "CaseId": 815,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 815
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            {
+              "Key": "FemaleGenitalMutilation"
+            },
+            {
+              "Key": "Sexting"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }

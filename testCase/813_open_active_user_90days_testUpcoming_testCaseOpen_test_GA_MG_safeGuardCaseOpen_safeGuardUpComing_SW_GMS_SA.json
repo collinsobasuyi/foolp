@@ -1,0 +1,71 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 813,
+        "Status": "Active",
+        "LastLoggedInFromToday": -4,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "Efan",
+          "LastName": "Betts",
+          "DateOfBirth": "2001-04-02",
+          "Postcode": "SO41 3RW",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "590543317",
+          "EmailAddress": "efanbetts@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+      
+    {
+      "CaseId": 813,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 813
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            {
+              "Key": "SexWorker"
+            },
+            {
+              "Key": "GiftsMoneySex"
+            },
+            {
+              "Key": "SexualAssault"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }

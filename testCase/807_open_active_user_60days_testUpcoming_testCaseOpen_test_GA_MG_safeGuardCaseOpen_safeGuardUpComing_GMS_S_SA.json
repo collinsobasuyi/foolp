@@ -1,0 +1,71 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 807,
+        "Status": "Active",
+        "LastLoggedInFromToday": -1,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "David",
+          "LastName": "Johnson",
+          "DateOfBirth": "1966-07-21",
+          "Postcode": "SE23 3QL",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "077484467",
+          "EmailAddress": "davidjohnson@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+     
+    {
+      "CaseId": 807,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 807
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            {
+              "Key": "GiftsMoneySex"
+            },
+            {
+              "Key": "Sexting"
+            },
+            {
+              "Key": "SexualAssault"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }

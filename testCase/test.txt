@@ -1,16 +1,21 @@
 5 - active users last 30 days
 5 - active users last 60 days
 5 - active users last 90 days
+2 users for single Key
+2 users for double Key
+2 users for the three keys
 
 {0 means due - 1 -2 -3 means overdue}
 
                 "DueDateFromToday": 5,
                 "CreatedDateFromToday": -30,
                 "ClosedFromToday": null means open    "ClosedFromToday": -1 means closed 
-5 - active users last 30 days overdue
-5 - active users last 30 days due
-5 - active users last 30 days closed
-
+3 - active users last 30 days overdue TESTING
+3 - active users last 30 days due TESTING
+3 - active users last 30 days closed TESTING
+3 - active users last 30 days overdue SAFEGUARDING
+3 - active users last 30 days due SAFEGUARDING
+3 - active users last 30 days closed SAFEGUARDING
 
             "ProcessMetaDatas": [
               {
@@ -30,7 +35,7 @@
             },
             {
               "Key": "ProcessSummaryData",
-              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HasMycoplasmaGentialium\"]}"
+              "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"MG\"]}"
             },
 
                         {
@@ -43,3 +48,97 @@
               "Key": "ProcessSummaryData",
               "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"HBV\",\"GA\"]}"
             },
+
+
+
+
+
+
+
+            801_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_AU_DU.json
+
+            802_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_SA_SW.json
+
+            803_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_SH_PP.json
+
+            804_open_active_user_30days_testUpcoming_testCaseOpen_test_MG_safeGuardCaseOpen_safeGuardUpComing_SH_PP_FGM.json
+
+            805_open_active_user_30days_testUpcoming_testCaseOpen_test_MG_GA_HBV_safeGuardCaseOpen_safeGuardUpComing_PA_CS.json
+
+            806_open_active_user_60days_testUpcoming_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_U_CS.json
+
+            807_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_MG_safeGuardCaseOpen_safeGuardUpComing_GMS_S_SA.json
+
+            808_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_DAV_DAU.json
+
+            809_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_HBV_safeGuardCaseOpen_safeGuardUpComing_DAV_DU.json
+
+            810_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_GMS_PAP_SW.json
+
+            811_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_MG_safeGuardCaseOpen_safeGuardUpComing_SA_SH.json
+
+            812_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_DU_GMS.json
+
+            813_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_MG_safeGuardCaseOpen_safeGuardUpComing_SW_GMS_SA.json
+
+            814_open_active_user_90days_testUpcoming_testCaseOpen_test_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_U_S_DU.json
+
+            815_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_FGM_S.json
+
+            816_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_S.json
+
+            817_open_active_user_30days_testUpcoming_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_DU.json
+
+            818_open_active_user_60days_testUpcoming_testCaseOpen_test_MG_HBV_safeGuardCaseOpen_safeGuardUpComing_AU_DAV.json
+
+            819_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_HBV_safeGuardCaseOpen_safeGuardUpComing_SH_SA.json
+
+            820_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_CS_SA_PP.json
+
+            821_open_active_user_90days_testUpcoming_testCaseOpen_test_MG_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_GMS_SW_S.json
+
+            822_open_active_user_30days_testUpcoming_testCaseOpen_test_MG_safeGuardCaseOpen_safeGuardUpComing_SA.json
+
+            823_open_active_user_30days_testUpcoming_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_GMS.json
+
+            824_open_active_user_60days_testUpcoming_testCaseOpen_test_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_CS_AS.json
+
+            825_open_active_user_60days_testUpcoming_testCaseOpen_test_GA_MG_safeGuardCaseOpen_safeGuardUpComing_DAV_DAU.json
+
+            826_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_MG_HBV_safeGuardCaseOpen_safeGuardUpComing_SA_PAP_U.json
+
+            827_open_active_user_90days_testUpcoming_testCaseOpen_test_GA_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_SW_SH_AU.json
+
+            828_open_active_user_30days_testUpcoming_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_AS.json
+
+            829_open_active_user_60days_testUpcoming_testCaseOpen_test_MG_GA_safeGuardCaseOpen_safeGuardUpComing_DAU_FGM.json
+
+            830_open_active_user_90days_testUpcoming_testCaseOpen_test_MG_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_CS_S_FGM.json
+
+            831_open_active_user_30days_testOverDue_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_DU.json
+
+            832_open_active_user_60days_testOverDue_testCaseOpen_test_MG_HBV_safeGuardCaseOpen_safeGuardUpComing_AU_DAV.json
+
+            833_open_active_user_60days_testOverDue_testCaseOpen_test_GA_HBV_safeGuardCaseOpen_safeGuardUpComing_SH_SA.json
+
+            834_open_active_user_90days_testOverDue_testCaseOpen_test_GA_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_CS_SA_PP.json
+
+            835_open_active_user_90days_testOverDue_testCaseOpen_test_MG_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_GMS_SW_S.json
+
+            836_open_active_user_30days_testOverDue_testCaseOpen_test_MG_safeGuardCaseOpen_safeGuardUpComing_SA.json
+
+            837_open_active_user_30days_testOverDue_testCaseOpen_test_HBV_safeGuardCaseOpen_safeGuardUpComing_GMS.json
+
+            838_open_active_user_60days_testDue_testCaseOpen_test_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_CS_AS.json
+
+            839_open_active_user_60days_testDue_testCaseOpen_test_GA_MG_safeGuardCaseOpen_safeGuardUpComing_DAV_DAU.json
+
+            840_open_active_user_90days_testDue_testCaseOpen_test_GA_MG_HBV_safeGuardCaseOpen_safeGuardUpComing_SA_PAP_U.json
+
+            841_open_active_user_90days_testDue_testCaseOpen_test_GA_HBV_MG_safeGuardCaseOpen_safeGuardUpComing_SW_SH_AU.json
+
+            842_open_active_user_30days_testDue_testCaseOpen_test_GA_safeGuardCaseOpen_safeGuardUpComing_AS.json
+
+            843_open_active_user_60days_testDue_testCaseOpen_test_MG_GA_safeGuardCaseOpen_safeGuardUpComing_DAU_FGM.json
+
+            844_open_active_user_90days_testDue_testCaseOpen_test_MG_HBV_GA_safeGuardCaseOpen_safeGuardUpComing_CS_S_FGM.json

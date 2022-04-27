@@ -1,0 +1,71 @@
+{
+    "ServiceUsers": [
+      {
+        "ServiceUserId": 830,
+        "Status": "Active",
+        "LastLoggedInFromToday": -2,
+        "SingleSignOnId": null,
+        "Claims": {
+          "FirstName": "Humairaa",
+          "LastName": "Frost",
+          "DateOfBirth": "1974-03-25",
+          "Postcode": "CB22 4SJ",
+          "MobileNumberCountryCode": "+44",
+          "MobileNumber": "799466575",
+          "EmailAddress": "HumairaaFrost@Test.com"
+        }
+      }
+    ],
+    "Cases": [
+    {
+      "CaseId": 830,
+      "ServiceProviderExtId": 226,
+      "CaseUser": {
+        "ServiceUserExtId": 830
+      },
+      "Processes": [
+        {
+         "ProcessTypeLocalisationKey": "ProcessType-Testing"
+        },
+        {
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
+          "Tasks": [
+            {
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
+              "DueDateFromToday": 10,
+              "CreatedDateFromToday": -10,
+              "ClosedFromToday": null
+            }
+          ],
+          "ProcessMetaDatas": [
+            {
+              "Key": "ProcessSummaryData",
+              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
+            },
+            {
+              "Key": "ProcessSummaryType",
+              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+            },
+
+            
+            {
+              "Key": "CoercedSex"
+            },
+            {
+              "Key": "Sexting"
+            },
+            {
+              "Key": "FemaleGenitalMutilation"
+            }
+          ]
+        },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
+          },
+          {
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
+          }
+        ]
+      }
+    ]
+  }
