@@ -17,74 +17,7 @@
       }
     ],
     "Cases": [
-      {
-        "CaseId": 808,
-        "ServiceProviderExtId": 226,
-        "CaseUser": {
-          "ServiceUserExtId": 808
-        },
-        "Processes": [
-          {
-            "ProcessTypeLocalisationKey": "ProcessType-Testing",
-            "Tasks": [
-              {
-                "TaskTypeLocalisationKey": "TaskType-Testing-ResultsConsultation",
-                "DueDateFromToday": 5,
-                "CreatedDateFromToday": -60,
-                "ClosedFromToday": null
-              }
-            ],
-            "ProcessMetaDatas": [
-              {
-                "Key": "HasGonorrhoea"
-              },
-
-              {
-                "Key": "ProcessSummaryData",
-                "Value": "{\"Name\":\"Initial Screen\",\"ScreenReference\":\"SR7026263\",\"CreatedOn\":\"2022-03-30T00:29:00.9373614Z\",\"Positive\":[\"GA\"]}"
-              },
-              {
-                "Key": "ProcessSummaryType",
-                "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.TestingSummary.V1.TestingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-              }
-            ]
-          },
-          {
-          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
-          "Tasks": [
-            {
-              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
-              "DueDateFromToday": 10,
-              "CreatedDateFromToday": -10,
-              "ClosedFromToday": null
-            }
-          ],
-          "ProcessMetaDatas": [
-            {
-              "Key": "ProcessSummaryData",
-              "Value": "{\"HasSafeguardingConcern\":true,\"Labels\":[\"SexualAssault\",\"SexWorker\",\"PartnerAgeOrPower\",\"PartnerAge\",\"PartnerPower\",\"CoercedSex\",\"Uncomfortable\",\"GiftsMoneySex\",\"Sexting\",\"AgenciesOrServices\",\"SelfHarm\",\"DrugAlcoholUser\",\"AlcoholUser\",\"DrugUser\" ,\"FemaleGenitalMutilation\",\"DomesticAbuseViolence\",\"SexualAssault\"],\"QuestionnaireReference\":\"QS4299608\"}"
-            },
-            {
-              "Key": "ProcessSummaryType",
-              "Value": "Preventx.Services.ClinicalCase.Application.ProcessSummaries.SafeguardingSummary.V1.SafeguardingSummary, Preventx.Services.ClinicalCase.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
-            },
-            {
-              "Key": "DomesticAbuseViolence"
-            },
-            {
-              "Key": "DrugAlcoholUser"
-            }
-            
-          ]
-        },
-        {
-          "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
-        },
-        {
-          "ProcessTypeLocalisationKey": "ProcessType-Care"
-        }
-      ]
-    },
+     
     {
       "CaseId": 808,
       "ServiceProviderExtId": 226,
