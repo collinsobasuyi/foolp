@@ -25,10 +25,10 @@
       },
       "Processes": [
         {
-            "ProcessTypeLocalisationKey": "Testing",
+            "ProcessTypeLocalisationKey": "ProcessType-Testing",
             "Tasks": [
               {
-                "TaskTypeLocalisationKey": "Testing-ResultsConsultation",
+                "TaskTypeLocalisationKey": "TaskType-Testing-ResultsConsultation",
                 "DueDateFromToday": -3,
                 "CreatedDateFromToday": -60,
                 "ClosedFromToday": null
@@ -50,10 +50,10 @@
             ]
           },
         {
-          "ProcessTypeLocalisationKey": "Safeguarding",
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding",
           "Tasks": [
             {
-              "TaskTypeLocalisationKey": "Safeguarding-Consolation",
+              "TaskTypeLocalisationKey": "TaskType-Safeguarding-consultation",
               "DueDateFromToday": 10,
               "CreatedDateFromToday": -10,
               "ClosedFromToday": null
@@ -76,10 +76,10 @@
           ]
         },
           {
-            "ProcessTypeLocalisationKey": "PartnerTracing"
+            "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
           },
           {
-            "ProcessTypeLocalisationKey": "Care"
+            "ProcessTypeLocalisationKey": "ProcessType-Care"
           }
         ]
       }

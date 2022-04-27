@@ -220,7 +220,7 @@
       },
       "Processes": [
         {
-          "ProcessTypeLocalisationKey": "Testing",
+         "ProcessTypeLocalisationKey": "ProcessType-Testing",
           "Tasks": [
             {
               "TaskTypeLocalisationKey": "Testing-ResultsConsultation",
@@ -244,13 +244,13 @@
           ]
         },
         {
-          "ProcessTypeLocalisationKey": "Safeguarding"
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding"
         },
         {
-          "ProcessTypeLocalisationKey": "PartnerTracing"
+          "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
         },
         {
-          "ProcessTypeLocalisationKey": "Care"
+          "ProcessTypeLocalisationKey": "ProcessType-Care"
         }
       ]
     },
@@ -262,7 +262,7 @@
       },
       "Processes": [
         {
-          "ProcessTypeLocalisationKey": "Testing",
+         "ProcessTypeLocalisationKey": "ProcessType-Testing",
           "Tasks": [
             {
               "TaskTypeLocalisationKey": "Testing-ResultsConsultation",
@@ -286,13 +286,13 @@
           ]
         },
         {
-          "ProcessTypeLocalisationKey": "Safeguarding"
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding"
         },
         {
-          "ProcessTypeLocalisationKey": "PartnerTracing"
+          "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
         },
         {
-          "ProcessTypeLocalisationKey": "Care"
+          "ProcessTypeLocalisationKey": "ProcessType-Care"
         }
       ]
     },
@@ -304,7 +304,7 @@
       },
       "Processes": [
         {
-          "ProcessTypeLocalisationKey": "Testing",
+         "ProcessTypeLocalisationKey": "ProcessType-Testing",
           "Tasks": [
             {
               "TaskTypeLocalisationKey": "Testing-ResultsConsultation",
@@ -331,13 +331,13 @@
           ]
         },
         {
-          "ProcessTypeLocalisationKey": "Safeguarding"
+          "ProcessTypeLocalisationKey": "ProcessType-Safeguarding"
         },
         {
-          "ProcessTypeLocalisationKey": "PartnerTracing"
+          "ProcessTypeLocalisationKey": "ProcessType-PartnerTracing"
         },
         {
-          "ProcessTypeLocalisationKey": "Care"
+          "ProcessTypeLocalisationKey": "ProcessType-Care"
         }
       ]
     }
